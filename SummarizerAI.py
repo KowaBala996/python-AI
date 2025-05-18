@@ -25,7 +25,6 @@ def summarize_text(input_text):
     """Generate a summary for the given input text."""
     return summarizer(input_text, max_length=150, min_length=100, do_sample=False)
 
-# Button to trigger summarization
 if st.button("Summarize"):
     if text.strip() == "":
         st.warning("Please enter some text.")
