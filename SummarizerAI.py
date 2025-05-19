@@ -169,7 +169,6 @@ with st.expander("How to use this app"):
     For best results, use texts with at least 200 words.
     """)
 
-# Footer
 st.markdown("---")
 st.markdown("Built with ❤️ using AI technology")
 st.markdown("✨ Thank you for using our text summarizer! Have a wonderful day! ✨")
